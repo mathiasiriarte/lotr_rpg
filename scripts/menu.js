@@ -1,3 +1,13 @@
+var x = document.getElementById("menuMusic"); 
+
+function playAudio() { 
+    x.play(); 
+} 
+
+function pauseAudio() { 
+    x.pause(); 
+} 
+
 const startBtn = document.getElementById("startBtn");
 
 startBtn.addEventListener("click", () =>{
